@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profil Eko Wahyudi</title>
+	<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Calibri" rel="stylesheet">
+	<link href="ekostyles.css" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+	<script type="text/javascript">
+		function hideProfile(){
+			var profile = document.getElementById("profile");
+			var a_profile = document.getElementById("another_profile");
+			var menu_a = document.getElementById("menu_a");
+			var menu_b = document.getElementById("menu_b");
+			menu_a.classList.add("active");
+			menu_b.classList.remove("active");
+  			profile.classList.add("hide");
+  			a_profile.classList.remove("hide");
+  			console.log("hide");
+		}
+
+		function showProfile(){
+			var profile = document.getElementById("profile");
+			var a_profile = document.getElementById("another_profile");
+			var menu_a = document.getElementById("menu_a");
+			var menu_b = document.getElementById("menu_b");
+			menu_a.classList.remove("active");
+			menu_b.classList.add("active");
+  			profile.classList.remove("hide");
+  			a_profile.classList.add("hide");
+  			console.log("show");
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
