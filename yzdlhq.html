@@ -1,0 +1,91 @@
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="theme-color" content="#3e454c">
+	
+	<title>Sistem Pendukung Keputusan Pemilihan Pegawai Terbaik UPTD Metrologi Legal Kota Semarang</title>
+
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<!-- Sandstone Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Bootstrap Datatables -->
+	<link rel="stylesheet" href="assets/css/dataTables.bootstrap.min.css">
+	<!-- Bootstrap Datatables Responsive -->
+	<link rel="stylesheet" href="assets/css/responsive.bootstrap.min.css">
+	<!-- Bootstrap social button library -->
+	<link rel="stylesheet" href="assets/css/bootstrap-social.css">
+	<!-- Bootstrap select -->
+	<link rel="stylesheet" href="assets/css/bootstrap-select.css">
+	<!-- Bootstrap file input -->
+	<link rel="stylesheet" href="assets/css/fileinput.min.css">
+	<!-- Awesome Bootstrap checkbox -->
+	<link rel="stylesheet" href="assets/css/awesome-bootstrap-checkbox.css">
+	<!-- Admin Stye -->
+	<link rel="stylesheet" href="assets/css/stile.css">
+
+	<!-- Loading Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap-select.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.dataTables.min.js"></script>
+	<script src="assets/js/dataTables.bootstrap.min.js"></script>
+	<script src="assets/js/dataTables.responsive.min.js"></script>
+	<script src="assets/js/responsive.bootstrap.min.js"></script>
+	<script src="assets/js/Chart.min.js"></script>
+	<script src="assets/js/fileinput.js"></script>
+	<script src="assets/js/chartData.js"></script>
+	<script src="assets/js/main.js"></script>
+	
+</head>
+
+<body>
+	<div class="brand clearfix">
+		<a class="logo" style="color: white;"></a>
+		<a class="header" style="color: white;"><strong>Sistem Pendukung Keputusan Penilaian Pegawai UPTD Metrologi Legal Kota Semarang</strong></a>
+		<!-- <a href="?p=kepala" class="logo">HOME</a> -->
+		<span class="menu-btn"><i class="fa fa-bars"></i></span>
+	</div>
+
+	<div class="ts-main-content">
+		<nav class="ts-sidebar">
+			<ul class="ts-sidebar-menu">
+				<li class="ts-label">Main</li>
+				<li><a href="?p=dasbor"><i class="fa fa-dashboard"></i> Dasbor</a></li>
+				<li <?php if (@$_GET['p']=='pegawai') { echo 'class="open"'; } else { echo ''; } ?>><a href="?p=pegawai"><i class="fa fa-users"></i> Data Pegawai</a></li>
+				<li <?php if (@$_GET['p']=='kriteria-subkriteria') { echo 'class="open"'; } else { echo ''; } ?>><a href="?p=kriteria-subkriteria"><i class="fa fa-file"></i> Data Kriteria & Subkriteria</a></li>
+				
+				<li <?php if (@$_GET['p']=='bobot-kriteria-tingkat' or @$_GET['p']=='bobot-subkriteria-pilihan' or @$_GET['p']=='bobot-kriteria-komputasi' or @$_GET['p']=='bobot-subkriteria-tingkat' or @$_GET['p']=='bobot-subkriteria-komputasi') { echo 'class="open"'; } else { echo ''; } ?>><a href=""><i class="fa fa-balance-scale"></i> Pembobotan</a>
+					<ul>
+						<li <?php if (@$_GET['p']=='bobot-kriteria-tingkat' or @$_GET['p']=='bobot-kriteria-komputasi') { echo 'class="open"'; } else { echo ''; } ?>><a href="?p=bobot-kriteria-tingkat">Kriteria</a></li>
+						<li <?php if (@$_GET['p']=='bobot-subkriteria-pilihan' or @$_GET['p']=='bobot-subkriteria-tingkat' or @$_GET['p']=='bobot-subkriteria-komputasi') { echo 'class="open"'; } else { echo ''; } ?>><a href="?p=bobot-subkriteria-pilihan">Subkriteria</a></li>
+					</ul>
+				</li>
+				<li <?php if (@$_GET['p']=='nilai') { echo 'class="open"'; } else { echo ''; } ?>><a href="?p=nilai"><i class="fa fa-list-alt"></i> Nilai Pegawai</a></li>
+				<li <?php if (@$_GET['p']=='keputusanakhir') { echo 'class="open"'; } else { echo ''; } ?>><a href="?p=keputusanakhir"><i class="fa fa-sitemap"></i> Keputusan Akhir</a></li>
+				<li><a href="?p=password-ubah"><i class="fa fa-user fa-fw"></i>Ubah Password</a></li>
+				<li><a href="?p=logout"><i class="fa fa-cog fa-fw"></i>Logout</a></li>				
+
+
+			</ul>
+		</nav>
+		<div class="content-wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+
+</html>
