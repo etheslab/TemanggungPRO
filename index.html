@@ -1,180 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Webpage</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <style type="text/css">
-        .header {
-            background-color: #eee;
-            min-height: 50px;
-            text-align: center;
-        }
-        .logo img {
-            width: 200px;
-        }
-        .menu ul {
-            padding: 0;
-        }
-        .menu ul li {
-            display: inline-block;
-            position: relative;
-        }
-        .menu ul li a {
-            padding: 10px 20px;
-            text-decoration: none;
-        }
-        .content {
-            background-color: #ddd;
-            min-height: 500px;
-            overflow: auto;
-        }
-        .footer {
-            background-color: #ccc;
-            min-height: 50px;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            width: 800px;
-            margin: 0 auto;
-        }
-        .thumbnail {
-            background-color: white;
-            text-align: center;
-            padding: 10px;
-            width: 225px;
-            margin: 10px;
-            float: left;
-        }
-        .thumbnail img {
-            width: 100%;
-        }
-        ul.submenu {
-            background-color: #eee;
-            border: 1px solid #ccc;
-            text-align: left;
-            position: absolute;
-            top: 20px;
-            left: 0;
-            display: none;
-        }
-        .menu ul li:hover ul.submenu  {
-            display: block;
-        }
-        ul.submenu li {
-            display: block;
-        }
-        ul.submenu li a {
-            display: block;
-            padding: 5px 10px;
-        }
-        .jumbotron {
-            font-family: 'Raleway', sans-serif;
-            width: 100%;
-            padding: 80px 40px;
-            box-sizing: border-box;
-            text-align: center;
-            color: white;
-            background-color: #aaa;
-            background-image: url('https://images.unsplash.com/photo-1515111293107-b0cd6448f5f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e4f56141064dbe63db663bb7a2c73b71&auto=format&fit=crop&w=1350&q=80');
-            background-size: cover;
-            position: relative;
-            z-index: -1000;
-        }
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: black;
-            opacity: 0.4;
-        }
-        .jumbotron h2,
-        .jumbotron p {
-            position: relative;
-        }
-    </style>
-    <script type="text/javascript">
-        function displayAlert(){
-            alert("Hello world!");
-            var nama = 'Eko Wahyudi';
-            console.log(nama);
-        }
-    </script>
+<title>dzulfikar68</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/icon.jpg">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="font/css/fontello.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Logo Produk</h1>
-            <div class="logo">
-              <img src="https://devschool.id/resources/images/sample-logo.png">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li onclick="displayAlert()"><a href="#">Home</a></li>
-                    <li><a href="#">About</a>
-                        <ul class="submenu">
-                            <li><a href="#">CV</a></li>
-                            <li><a href="#">Education</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="jumbotron">
-            <div class="overlay"></div>
-            <h2>Welcome to My Homepage</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor necessitatibus quae voluptate explicabo architecto fugiat asperiores illo quibusdam qui mollitia, porro fugit. Illum sapiente modi, ut harum aliquam accusamus unde.</p>
-        </div>
-        <ul contenteditable=true>
-          <li>PHP</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-        </ul>
-     
-        <div class="content">
-            <h2>My Products</h2>
-         
-            <div class="thumbnail">
-                <img src="http://via.placeholder.com/250x150">
-                <h2>Product 2</h2>
-                <p>Rp 250.000</p>
-            </div>
-            <div class="thumbnail">
-                <img src="http://via.placeholder.com/250x150">
-                <h2>Product 2</h2>
-                <p>Rp 250.000</p>
-            </div>
-            <div class="thumbnail">
-                <img src="http://via.placeholder.com/250x150">
-                <h2>Product 2</h2>
-                <p>Rp 250.000</p>
-            </div>
-            <div class="thumbnail">
-                <img src="http://via.placeholder.com/250x150">
-                <h2>Product 2</h2>
-                <p>Rp 250.000</p>
-            </div>
-            <div class="thumbnail">
-                <img src="http://via.placeholder.com/250x150">
-                <h2>Product 2</h2>
-                <p>Rp 250.000</p>
-            </div>
-            <div class="thumbnail">
-                <img src="http://via.placeholder.com/250x150">
-                <h2>Product 2</h2>
-                <p>Rp 250.000</p>
-            </div>
-
-        </div>
-     
-        <div class="footer">
-            <p>copyright 2018 My Page</p>
-        </div>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="index.html"><img src="img/icon.jpg" alt=""></a>
+      <ul class="nav nav-collapse pull-right">
+        <li><a href="index.html" class="active"><i class="icon-user"></i> Profile</a></li>
+        <li><a href="skills.html"><i class="icon-trophy"></i> Skills</a></li>
+        <li><a href="work.html"><i class="icon-picture"></i> Work</a></li>
+        <li><a href="resume.html"><i class="icon-doc-text"></i> Resume</a></li>
+      </ul>
+      <div class="nav-collapse collapse"></div>
     </div>
+  </div>
+</div>
+<div class="container profile">
+  <div class="span3"> <img src="img/myphoto.jpeg" alt=""> </div>
+  <div class="span5">
+    <h1>Dzulfikar Fauzi</h1>
+    <h3>Software Developer | Indonesia</h3>
+    <p style="text-align: justify; text-justify: inter-word; margin: 20px;"><i>"I am Graduated from Computer Science and Worked as a Software Developer in Indonesia.
+      @Professionalism is my Soul"</i></p>
+    <a style="margin: 20px;" target="_blank" href="https://wa.me/6282227537577/?text=Hi!" class="hire-me"><i class="icon-paper-plane"></i> Connect Me </a> </div>
+</div>
+<div class="row social">
+  <ul class="social-icons" style="background-color: white;">
+    <li><a target=”_blank” href="https://linkedin.com/in/dzulfikar68"><img src="img/linkedin.png" alt=""></a></li>
+    <li><a target=”_blank” href="https://github.com/dzulfikar68"><img src="img/github.png" alt=""></a></li>
+    <li><a target=”_blank” href="https://medium.com/@dzulfikar68"><img src="img/medium.png" alt=""></a></li>
+    <li><a target=”_blank” href="http://yt.vu/+dzulfikar68"><img src="img/youtube.png" alt=""></a></li>
+  </ul>
+</div>
+<div class="footer" href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+  <div class="container">
+    <p class="pull-left"><a href="https://dzulfikar68.azurewebsites.net/">dzulfikar68.azurewebsites.net</a></p>
+    <p class="pull-right"><a href="#myModal" role="button" data-toggle="modal"> <i class="icon-mail"></i> CONTACT</a></p>
+  </div>
+</div>
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel"><i class="icon-mail"></i> Contact Me</h3>
+  </div>
+  <div class="modal-body">
+    <form action="#">
+      <input type="text" placeholder="Your Name">
+      <input type="text" placeholder="Your Email">
+      <input type="text" placeholder="Website (Optional)">
+      <textarea rows="3" style="width:80%"></textarea>
+      <br>
+      <button type="submit" class="btn btn-large"><i class="icon-paper-plane"></i> SUBMIT</button>
+    </form>
+  </div>
+</div>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+$('#myModal').modal('hidden')
+</script>
 </body>
 </html>
