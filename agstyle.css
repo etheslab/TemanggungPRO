@@ -1,0 +1,110 @@
+        /* style css */
+        .container{
+            /* style class container */
+            width: 70%;
+            margin: auto;
+        }
+        .header{
+            /* style class header */
+            width: 100%;
+            height: 40px;
+            background-color: saddlebrown;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .jumbotron{
+            /* style class jumbotron */
+            font-family: fantasy, sans-serif;
+            font-size: 15px;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            background-image: url(photo-1557234195-bd9f290f0e4d.jpg);
+            background-size: cover;
+            position: relative;
+        }
+        .figure img{
+            /* style class figure */
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            padding: 10px;
+        }
+        #heading{
+            /* style id heading */
+            font-family: 'Roboto Slab', 'san serif';;
+        }
+        .title{
+            /* style class title */
+            font-weight: bold;
+            font-size: 16px;
+            font-family: 'Roboto Slab', 'san serif';
+            color: white;
+        }
+        .description{
+            /* style class description */
+            padding: 10px;  
+            color: white; 
+            font-weight: 100;
+            position: relative;         
+        }
+        .menu{
+            width: 100%;
+            background-color: aliceblue;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        .menu ul{
+            padding: 0;
+        }
+        .menu ul li{
+            display: inline-block;
+            position: relative;
+            padding: 10px;
+        }
+        .content{
+            /* style class content */
+            width: 100%;
+            overflow:auto;
+            text-align: center;
+            position: relative;
+        }
+        h2{
+            /* style h2 */
+            text-align: left;
+            font-family: 'Roboto Slab', 'san serif';
+        }
+        .subtance{
+            /* style class subtance */
+            background-color: white;
+            text-align: justify;
+            padding: 20px;
+            width: 40%;
+            margin: 10px;
+            float: left;
+            display: flex;
+        }
+        .contact img{
+            /* style class contact img */
+            width: 50px;
+            height: 50px;
+            padding: 20px;
+        }
+        .footer{
+            /* style class footer */
+            font-family: 'Roboto Slab', 'san serif';
+            width: 100%;
+            height: 40px;
+            background-color: saddlebrown;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .copyright{
+            /* style class copyright */
+            color: white;
+        }
